@@ -1,0 +1,221 @@
+/*﻿@charset "utf-8";*/
+
+/*
+Kholood AlGhasra
+    Feb 2018
+
+*/
+
+/* HTML and Body styles */
+
+html {
+   background: url(beach1.jpg);
+   font-family: Verdana, Geneva, sans-serif;
+   height: 100%;
+}
+img #gold {
+    float: left
+}
+
+img #jidhafs {
+    float: right;
+}
+
+
+body {
+    background-color: white;
+    box-shadow: rgb(51, 51, 51) 10px 0px 40px, rgb(51, 51, 51) -10px 0px 40px;
+    border-left: 1px solid rgb(255, 63, 63);
+    border-right: 1px solid rgb(255, 63, 63);
+    margin: 0px auto;
+    min-width: 320px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Header styles */
+
+header {
+    background: linear-gradient(to right, rgb(255, 63, 63) 50%, white);
+    border-bottom: 1px solid /*rgb(255, 63, 63)*/;
+    color: white;
+}
+
+    header h1 {
+        background: linear-gradient(to right, rgb(255, 63, 63) 50%, white);
+        color: white;
+        font-size: 2em;
+        padding: 5px 0px 5px 12px;
+        text-shadow:2px 2px 8px grey;
+    }
+
+header h1 em {
+   font-size: 0.7em;
+}
+
+/* Navigation list styles */
+
+header nav ul{
+    text-align:center;
+}
+
+    header nav ul li {
+        display: inline;
+        background-color: rgba(255, 63, 63,0.9);
+        font-size: 1em;
+        padding: 0px 10px;
+        overflow: hidden;
+        /*opacity:0.8;*/
+    }
+
+    header nav ul li a {
+        color: white;
+        display:inline;
+        width: 100%;
+        overflow:hidden;
+        font-weight:bold;
+        
+    }
+
+        header nav ul li a:hover {
+            display:inline;
+            color: white;
+            background-color: rgb(255, 63, 63);
+        }
+
+        li #vertical a:hover
+        {
+            color:purple;
+        }
+/* Container Styles */
+
+div#container {
+   background: rgba(248, 248, 210,0.9);
+   width:100%;
+}
+
+div#container::after{
+    /*clear:both;*/
+    /*content:"";*/
+    display:table;
+}
+
+/* Main Section styles */
+
+section#main {
+    display:inline-block;
+   padding: 10px 20px 0px 20px;
+   /*float: left;*/
+   width: 70%;
+}
+
+section#main div#container img {
+   display: inline-block;
+   width: 100%;
+}
+
+    section#main h2 {
+        color: white;
+        background: linear-gradient(to right, rgb(255, 63, 63) 30%, white);
+        font-size: 1.1em;
+        letter-spacing: 5px;
+        padding: 5px 0px 5px 12px;
+    }
+
+    section#main container p {
+        line-height: 1.4em;
+        margin: 15px;
+        /*column-count: 2;
+        column-gap: 20px;
+        column-rule-width: 2px;
+        column-rule-style: solid;
+        column-rule-color: rgb(255, 63, 63);*/
+    }
+
+
+/* Right Section styles */
+
+section#main div#container{
+   /*padding: 0px 15px 0px 15px;*/
+   padding: 15px 0px 15px 0px;
+   /*float: left;*/
+   width: 100%;
+}
+
+
+/* Footer styles */
+
+footer {
+    color: white;
+    background: linear-gradient(to right, rgb(255, 63, 63) 50%, white);
+    font-size: 0.65em;
+    font-style: normal;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*form*/
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=button] {
+    background-color: rgb(255, 63, 63);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+map2
+{
+    height:auto;
+    width:auto;
+}
+
+* {
+    box-sizing: border-box
+}
+
